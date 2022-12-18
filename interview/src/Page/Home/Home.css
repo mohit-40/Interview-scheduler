@@ -1,0 +1,36 @@
+.homeContainer .hero {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../asset/cover.png");
+  background-size: contain;
+  background-color: rgb(141, 207, 206);
+  background-repeat: no-repeat;
+}
+.homeContainer .hero .desc {
+  margin-top: 20px;
+  font-size: 50px;
+  color: #150d02;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.homeContainer .hero .button {
+  background-color: rgb(191, 94, 10);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.homeContainer .hero .button:hover {
+  background-color: rgb(32, 92, 92);
+  color: white;
+}
+.homeContainer .homeTable .heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 15px 10px;
+  text-align: center;
+  text-decoration: underline;
+}/*# sourceMappingURL=Home.css.map */
